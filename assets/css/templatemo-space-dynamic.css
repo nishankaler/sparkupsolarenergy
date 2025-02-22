@@ -156,6 +156,17 @@ body {
   color: #fff;
 }
 
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        width: 150px; /* Adjust size for mobile */
+    }
+}
+
 @media (max-width: 991px) {
   html, body {
     overflow-x: hidden;
