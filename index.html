@@ -153,7 +153,18 @@ https://templatemo.com/tm-562-space-dynamic
     <div class="row">
       <div class="col-lg-4">
         <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-          <img src="assets/images/contact-decoration.png" alt="person graphic">
+          <img src="assets/images/contact-decoration.png" alt="person graphic" class="desktop-image">
+          <style> 
+  .desktop-image { 
+    display: none; /* Hide by default */ 
+  } 
+ 
+  @media (min-width: 768px) { /* Adjust this width as needed */ 
+    .desktop-image { 
+      display: block; /* Show on desktop */ 
+    } 
+  } 
+</style> 
         </div>
       </div>
       <div class="col-lg-8 align-self-center">
