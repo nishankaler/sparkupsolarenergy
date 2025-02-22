@@ -250,6 +250,8 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
+  width: 100%;
+height: auto;
   color: #1e1e1e!important;
 }
 
@@ -281,6 +283,8 @@ header
 }
 
 .header-area .main-nav .logo {
+  width: 100%;
+height: auto;
   line-height: 100px;
   color: #fff;
   font-size: 24px;
