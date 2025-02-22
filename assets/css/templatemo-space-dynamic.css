@@ -156,7 +156,7 @@ body {
   color: #fff;
 }
 
-.logo img {
+/* .logo img {
     max-width: 100%;
     height: auto;
 }
@@ -165,7 +165,7 @@ body {
     .logo img {
         width: 150px; /* Adjust size for mobile */
     }
-}
+} */
 
 @media (max-width: 991px) {
   html, body {
